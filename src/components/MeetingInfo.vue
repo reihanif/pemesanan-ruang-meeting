@@ -70,7 +70,7 @@ const selectedCheckbox = computed(() => {
 		values.push(1);
 	}
 
-	if (endTime.value && (endTime.value >= '11:00' || (startTime.value && startTime.value >= '11:00' && startTime.value < '14:00'))) {
+	if (endTime.value && ((endTime.value >= '11:00' && endTime.value < '14.00') || (startTime.value && startTime.value >= '11:00' && startTime.value < '14:00') || (startTime.value < '14:00' && endTime.value >= '14:00'))) {
 		values.push(2);
 	}
 
