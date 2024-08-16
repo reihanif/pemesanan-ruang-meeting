@@ -1,0 +1,90 @@
+@import './base.css';
+@import '@fontsource/open-sans/index.css';
+@import 'bootstrap/dist/css/bootstrap';
+
+main {
+	margin: 4.25rem 0 0 4.5rem;
+	padding: 1.5rem 2.25rem 2.25rem 1.75rem;
+}
+
+h1 {
+	font-size: 1.75rem;
+	font-weight: 700;
+	line-height: 2.383rem;
+	letter-spacing: 0.0025em;
+	margin: 0;
+}
+
+h6 {
+	font-size: 1rem;
+	font-weight: 600;
+	line-height: 1.362rem;
+	margin: 0;
+}
+
+.form-control,
+.form-select,
+.input-group-text,
+.form-check-label {
+	font-size: inherit !important;
+}
+
+.form-control {
+	padding: 0.75rem 1rem !important;
+	border-radius: 0.5rem !important;
+}
+
+.input-group .form-control {
+	border-radius: 0 0.5rem 0.5rem 0 !important;
+}
+
+.input-group-text {
+	border-radius: 0.5rem 0 0 0.5rem !important;
+}
+
+.form-select {
+	padding: 0.75rem 0.75rem 0.75rem 1rem !important;
+	border-radius: 0.5rem !important;
+}
+
+.form-check {
+	margin-bottom: 0 !important;
+	min-height: fit-content !important;
+}
+
+.form-check .form-check-input {
+	height: 1.125rem !important;
+	width: 1.125rem !important;
+	float: none !important;
+}
+
+.form-check .form-check-label {
+	font-weight: 400 !important;
+	line-height: 1.192rem !important;
+	vertical-align: middle !important;
+	margin-left: 0.5rem;
+}
+
+.form-check-input:checked {
+	background-color: var(--color-primary) !important;
+	border-color: var(--color-primary) !important;
+}
+
+.btn {
+	border-radius: 0.5rem !important;
+}
+
+.form-input > * + * {
+    margin-top: 0.5rem;
+}
+
+.form-input-label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.192rem;
+    letter-spacing: 0.005em;
+}
+
+.col-3 {
+    padding: 0 0.625rem;
+}
